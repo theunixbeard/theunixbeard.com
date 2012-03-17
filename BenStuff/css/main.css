@@ -1,0 +1,155 @@
+BODY {
+margin: 0px; 
+padding: 0px;
+background: url('../graphics/page-bg.jpg') #363147 center top repeat-x;
+color: #D0D1F6;
+text-align: center;
+} 
+
+A:link {background: none; color: #C5BDF5; text-decoration: underline; cursor: pointer;}
+A:visited {background: none; color: #C5BDF5; text-decoration: underline; cursor: pointer;}
+A:hover {background: none; color: #C5BDF5; text-decoration: underline; cursor: pointer;}
+A:active { background: none; color: #C5BDF5; background: underline; cursor: pointer;}
+
+
+
+.Global TD {
+vertical-align: top;
+}
+
+.Header {
+width: 760;
+height: 100px;
+padding: 0px; 
+background: transparent;
+}
+
+.MenuColTD {
+width: 190px;
+background: url('../graphics/menu_right_border.gif') transparent 170px top no-repeat;
+color: inherit;
+font: normal 13px arial,sans-serif;
+text-align: left;
+}
+
+.Menu {
+margin: 20px 10px 10px 20px;
+}
+
+.Menu A {
+width: 135px;
+}
+
+.FIX_FIREFOX {}
+html:not([dummy]) .Menu A {
+width: 125px;
+}
+.FIX_OPERA {}
+@media all and (min-width: 0px) {
+.Menu A {width: 125px;}
+}
+
+.Menu A:link, .Menu A:visited, .Menu A:active {
+display: block;
+height: 19px;
+text-align: left;
+font-weight: bold;
+margin-bottom: 5px;
+padding-left: 10px;
+color: #D0D1F6;
+text-decoration: none;
+background-image: url('../graphics/menu_button.jpg');
+background-repeat: repeat-x;
+background-position: center 0px;
+filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=70);
+-moz-opacity: 0.7;
+-khtml-opacity: 0.7;
+opacity:0.7;
+border-top: 1px solid #726999;
+border-bottom: 1px solid #726999;
+}
+
+.Menu A:hover {
+text-decoration: none;
+background-repeat: repeat-x;
+background-position: center 0px;
+filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=100);
+-moz-opacity: 1;
+-khtml-opacity: 1;
+opacity: 1;
+}
+
+.Content {
+width: 570px;
+background: transparent;
+color: inherit;
+text-align: justify;
+padding: 20px 20px 20px 5px;
+}
+
+.Content A:link {background: none; color: #D3C7FF; text-decoration: underline; cursor: pointer;} /* #C5BDF5 */
+.Content A:visited {background: none; color: #D3C7FF; text-decoration: underline; cursor: pointer;}
+.Content A:hover {background: none; color: lavender; text-decoration: underline; cursor: pointer;}
+.Content A:active { background: none; color: #D3C7FF; background: underline; cursor: pointer;}
+
+.HeadingStyle {
+background: inherit;
+color: #D0D1F6;
+font: bold italic 20px arial,sans-serif;
+}
+
+P {
+font: 13px arial,sans-serif;
+}
+
+.Padded {
+padding: 20px;
+}
+
+.SmallFont {
+font: 13px arial,sans-serif;
+}
+
+.MedFontBold {
+FONT: bold 15px arial,sans-serif;
+}
+
+.SmallFont TD {
+font: 13px arial,sans-serif;
+}
+
+.MedFontBold TD {
+font: bold 15px arial,sans-serif;
+}
+
+.Footer {
+color: inherit;
+font: 13px arial,sans-serif;
+height: 24px;
+text-align: center;
+vertical-align: top;
+background: url('footer.jpg');
+}
+
+.Footer A:link {background: none; color: #D3C7FF; text-decoration: underline; cursor: pointer;} /* #C5BDF5 */
+.Footer A:visited {background: none; color: #D3C7FF; text-decoration: underline; cursor: pointer;}
+.Footer A:hover {background: none; color: lavender; text-decoration: underline; cursor: pointer;}
+.Footer A:active { background: none; color: #D3C7FF; background: underline; cursor: pointer;}
+
+.FooterWrap {
+font-style: italic;
+margin-top: 3px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.Copyright {
+margin-left: 50px;
+}
+
+.Wrapper {
+background-image: url('../graphics/footer2.jpg');
+background-position: center bottom;
+background-repeat: no-repeat;
+}
+
